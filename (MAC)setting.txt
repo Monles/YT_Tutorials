@@ -19,9 +19,6 @@
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
-  "emulator.emulatorPathWindows": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
-  "emulator.androidColdBoot": true,
-  "emulator.emulatorPath": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
   "git.autofetch": true,
   "prettier.semi": true,
   "editor.formatOnSave": true,
@@ -61,5 +58,6 @@
 
   "editor.fontLigatures": true,
   "editor.find.addExtraSpaceOnTop": false,
-  "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace",
+  "editor.wordWrap": "on"
 }
