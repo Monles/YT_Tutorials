@@ -19,6 +19,9 @@
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
+  "emulator.emulatorPathWindows": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
+  "emulator.androidColdBoot": true,
+  "emulator.emulatorPath": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
   "git.autofetch": true,
   "prettier.semi": true,
   "editor.formatOnSave": true,
@@ -57,7 +60,48 @@
   },
 
   "editor.fontLigatures": true,
+  "prettier.printWidth": 120,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace",
-  "editor.wordWrap": "on"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": true,
+  "path-intellisense.autoSlashAfterDirectory": false,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.absolutePathToWorkspace": true,
+
+  "path-intellisense.mappings": {
+    "/": "${workspaceFolder}",
+    "lib": "${workspaceFolder}/lib",
+    "global": "/Users/dummy/globalLibs"
+  },
+  "workbench.activityBar.visible": false,
+  "editor.wordWrap": "on",
+  "prettier.printWidth": 80
 }
