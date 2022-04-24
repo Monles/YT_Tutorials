@@ -96,7 +96,7 @@
     "lib": "${workspaceFolder}/lib",
     "global": "/Users/dummy/globalLibs"
   },
-  "git.enableSmartCommit": true,
+
   "workbench.activityBar.visible": false,
   "editor.wordWrap": "on"
 }
