@@ -10,8 +10,8 @@
     "prettier.bracketSpacing": true,
     "reactSnippets.settings.prettierEnabled": true,
     "prettier.jsxBracketSameLine": true,
-    "prettier.useTabs": true,
-    "prettier.withNodeModules": true
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true
   },
   "editor.mouseWheelZoom": true,
   "terminal.integrated.profiles.windows": {
@@ -19,12 +19,8 @@
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
-  "emulator.emulatorPathWindows": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
-  "emulator.androidColdBoot": true,
-  "emulator.emulatorPath": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
   "git.autofetch": true,
-  "prettier.semi": true,
-  "editor.formatOnSave": true,
+
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
   "editor.minimap.enabled": false,
   "emmet.triggerExpansionOnTab": true,
@@ -39,15 +35,12 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
-  "prettier.jsxBracketSameLine": true,
+  "editor.formatOnSave": true,
+
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "checkJs": true,
-    "jsx": "react"
-  },
+
   "javascript.suggest.autoImports": true,
   "javascript.autoClosingTags": true,
   "editor.inlineSuggest.enabled": true,
@@ -59,7 +52,53 @@
     "plaintext": "jade"
   },
 
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": true,
+  "prettier.jsxBracketSameLine": true,
+
   "editor.fontLigatures": true,
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": true,
+  "path-intellisense.autoSlashAfterDirectory": false,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.absolutePathToWorkspace": true,
+
+  "path-intellisense.mappings": {
+    "/": "${workspaceFolder}",
+    "lib": "${workspaceFolder}/lib",
+    "global": "/Users/dummy/globalLibs"
+  },
+  "git.enableSmartCommit": true,
+  "workbench.activityBar.visible": false,
+  "editor.wordWrap": "on",
+  "prettier.printWidth": 80
 }
