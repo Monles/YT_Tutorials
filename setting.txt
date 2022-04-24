@@ -52,7 +52,7 @@
     "plaintext": "jade"
   },
 
-  "prettier.printWidth": 120,
+  "prettier.printWidth": 80,
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.semi": true,
@@ -91,7 +91,6 @@
   "path-intellisense.autoSlashAfterDirectory": false,
   "path-intellisense.autoTriggerNextSuggestion": true,
   "path-intellisense.absolutePathToWorkspace": true,
-
   "path-intellisense.mappings": {
     "/": "${workspaceFolder}",
     "lib": "${workspaceFolder}/lib",
@@ -99,6 +98,5 @@
   },
   "git.enableSmartCommit": true,
   "workbench.activityBar.visible": false,
-  "editor.wordWrap": "on",
-  "prettier.printWidth": 80
+  "editor.wordWrap": "on"
 }
