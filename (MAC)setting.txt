@@ -4,14 +4,7 @@
   "settingsSync.ignoredExtensions": [],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "eslint.enable": true,
-    "eslint.autoFixOnSave": true,
-    "prettier.bracketSpacing": true,
-    "reactSnippets.settings.prettierEnabled": true,
-    "prettier.jsxBracketSameLine": true,
-    "prettier.useTabs": true,
-    "prettier.withNodeModules": true
+    "editor.formatOnSave": true
   },
   "editor.mouseWheelZoom": true,
   "terminal.integrated.profiles.windows": {
@@ -19,22 +12,13 @@
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.startupEditor": "none",
-  "emulator.emulatorPathWindows": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
-  "emulator.androidColdBoot": true,
-  "emulator.emulatorPath": "C:\\Users\\iceue\\AppData\\Local\\Android\\Sdk",
+
   "git.autofetch": true,
   "prettier.semi": true,
   "editor.formatOnSave": true,
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
   "editor.minimap.enabled": false,
-  "emmet.triggerExpansionOnTab": true,
-  "files.associations": { "*html": "html" },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "razor": "html",
-    "plaintext": "jade"
-  },
+
   "reactSnippets.settings.prettierEnabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -42,11 +26,6 @@
   "prettier.jsxBracketSameLine": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "checkJs": true,
-    "jsx": "react"
   },
   "javascript.suggest.autoImports": true,
   "javascript.autoClosingTags": true,
@@ -67,7 +46,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.singleQuote": false,
-  "prettier.jsxSingleQuote": true,
+  "prettier.jsxSingleQuote": false,
   "auto-close-tag.enableAutoCloseTag": true,
   "auto-close-tag.enableAutoCloseSelfClosingTag": true,
   "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
@@ -102,6 +81,5 @@
     "global": "/Users/dummy/globalLibs"
   },
   "workbench.activityBar.visible": false,
-  "editor.wordWrap": "on",
-  "prettier.printWidth": 80
+  "editor.wordWrap": "on"
 }
