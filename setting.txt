@@ -44,20 +44,14 @@
   "javascript.suggest.autoImports": true,
   "javascript.autoClosingTags": true,
   "editor.inlineSuggest.enabled": true,
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "razor": "html",
-    "plaintext": "jade"
-  },
-
+  "editor.suggest.showMethods": true,
   "prettier.printWidth": 80,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
   "prettier.semi": true,
   "prettier.jsxBracketSameLine": true,
-
+  "prettier.tabWidth": 2,
+  "editor.wordWrap": "on",
   "editor.fontLigatures": true,
   "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace",
   "[javascript]": {
@@ -96,7 +90,6 @@
     "lib": "${workspaceFolder}/lib",
     "global": "/Users/dummy/globalLibs"
   },
-
   "workbench.activityBar.visible": false,
-  "editor.wordWrap": "on"
+  "editor.linkedEditing": true
 }
