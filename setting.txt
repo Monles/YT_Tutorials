@@ -4,14 +4,7 @@
   "settingsSync.ignoredExtensions": [],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "eslint.enable": true,
-    "eslint.autoFixOnSave": true,
-    "prettier.bracketSpacing": true,
-    "reactSnippets.settings.prettierEnabled": true,
-    "prettier.jsxBracketSameLine": true,
-    "prettier.tabWidth": 4,
-    "prettier.useTabs": true
+    "editor.formatOnSave": true
   },
   "editor.mouseWheelZoom": true,
   "terminal.integrated.profiles.windows": {
@@ -21,12 +14,19 @@
   "workbench.startupEditor": "none",
   "git.autofetch": true,
 
-  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "typescript"
+  ],
   "editor.minimap.enabled": false,
   "emmet.triggerExpansionOnTab": true,
   "files.associations": { "*html": "html" },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
     "vue-html": "html",
     "razor": "html",
     "plaintext": "jade"
@@ -37,7 +37,17 @@
   "editor.guides.bracketPairsHorizontal": true,
   "editor.formatOnSave": true,
 
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
@@ -54,9 +64,6 @@
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
   "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
 
   "auto-close-tag.enableAutoCloseTag": true,
   "auto-close-tag.enableAutoCloseSelfClosingTag": true,
@@ -78,7 +85,9 @@
     "erb",
     "lang-cfml",
     "cfml",
-    "HTML (Eex)"
+    "HTML (Eex)",
+    "tsx",
+    "ts"
   ],
   "path-intellisense.extensionOnImport": true,
   "path-intellisense.showHiddenFiles": true,
@@ -90,6 +99,20 @@
     "lib": "${workspaceFolder}/lib",
     "global": "/Users/dummy/globalLibs"
   },
+  "editor.linkedEditing": true,
   "workbench.activityBar.visible": false,
-  "editor.linkedEditing": true
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "javascript.format.enable": false,
+  "compile-hero": {
+    "disable-compile-files-on-did-save-code": false,
+    "notification-toggle": false,
+    "javascript-output-directory": "./out",
+    "javascript-output-toggle": false,
+    "sass-output-directory": "./out",
+    "sass-output-toggle": true,
+    "ignore": ["src/test.js", "*/test.scss", "**/spec/*", "**/src/**/*"],
+    "watch": ["sass/test.sass", "**/less/**/*"]
+  }
 }
