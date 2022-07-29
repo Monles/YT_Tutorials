@@ -1,6 +1,5 @@
 {
-  "workbench.colorTheme": "Community Material Theme Ocean",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "settingsSync.ignoredExtensions": [],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -37,6 +36,7 @@
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -101,9 +101,18 @@
     "global": "/Users/dummy/globalLibs"
   },
   "editor.linkedEditing": true,
-  "workbench.activityBar.visible": false,
   "editor.quickSuggestions": {
     "strings": true
   },
-  "javascript.format.enable": false
+  "javascript.format.enable": false,
+  "workbench.colorTheme": "Material Theme Ocean",
+  "solidity.compileUsingRemoteVersion": "v0.8.13+commit.abaa5c0e",
+  "editor.tabSize": 2,
+  "workbench.activityBar.visible": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
