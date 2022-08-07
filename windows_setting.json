@@ -105,8 +105,7 @@
     "strings": true
   },
   "javascript.format.enable": false,
-  "workbench.colorTheme": "Material Theme Ocean",
-  "solidity.compileUsingRemoteVersion": "v0.8.13+commit.abaa5c0e",
+  "workbench.colorTheme": "Community Material Theme Ocean",
   "editor.tabSize": 2,
   "workbench.activityBar.visible": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -114,5 +113,7 @@
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "mithrilEmmet.vnodeFactoryFunctionName": "m",
+  "mithrilEmmet.outputDefaultTagName": true
 }
