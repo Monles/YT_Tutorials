@@ -1,0 +1,22 @@
+{
+  "workbench.colorTheme": "Community Material Theme Ocean",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
