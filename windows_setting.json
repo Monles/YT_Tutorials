@@ -5,7 +5,6 @@
   "files.autoSave": "afterDelay",
   "workbench.startupEditor": "none",
   "git.autofetch": true,
-  "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "settingsSync.ignoredExtensions": [],
   "[jsonc]": {
@@ -62,11 +61,11 @@
   "prettier.singleQuote": false,
   "prettier.jsxSingleQuote": false,
   "prettier.semi": true,
-  "prettier.BracketSameLine": true,
+  "prettier.bracketSameLine": true,
   "prettier.tabWidth": 2,
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'Fira Code','Operator Mono Lig', Menlo, Monaco,Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono Lig', Menlo, Monaco,Consolas, 'Fira Code','Courier New', monospace",
 
   "auto-close-tag.enableAutoCloseTag": true,
   "auto-close-tag.enableAutoCloseSelfClosingTag": true,
@@ -116,5 +115,8 @@
     "source.fixAll.eslint": true
   },
   "mithrilEmmet.vnodeFactoryFunctionName": "m",
-  "mithrilEmmet.outputDefaultTagName": true
+  "mithrilEmmet.outputDefaultTagName": true,
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "editor.minimap.enabled": false
 }
