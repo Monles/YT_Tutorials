@@ -1,6 +1,6 @@
-### YT_Tutorials
+# YT_Tutorials
 
-## Some resources divided to many branches
+Check out which branch version suits your situation
 
 ---
 
@@ -10,3 +10,8 @@
 (2) Paste the all contents from settings.json
 
 ---
+
+### 2023.08 Update
+
+(1) Prettier - Rust
+(2) Pygame development
