@@ -1,0 +1,148 @@
+{
+  "workbench.colorTheme": "Material Theme Ocean",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.mouseWheelZoom": true,
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "none",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "settingsSync.ignoredExtensions": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": { "path": "C:\\Program Files\\Git\\bin\\bash.exe" }
+  },
+
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "typescript",
+    "typescriptreact"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": { "*html": "html" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  },
+  "reactSnippets.settings.prettierEnabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "javascript.suggest.autoImports": true,
+  "javascript.autoClosingTags": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.showMethods": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.bracketSameLine": true,
+  "prettier.tabWidth": 2,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Operator Mono Lig', Menlo, Monaco,Consolas, 'Fira Code','Courier New', monospace",
+
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)",
+    "tsx",
+    "ts"
+  ],
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": true,
+  "path-intellisense.autoSlashAfterDirectory": false,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.absolutePathToWorkspace": true,
+  "path-intellisense.mappings": {
+    "/": "${workspaceFolder}",
+    "lib": "${workspaceFolder}/lib",
+    "global": "/Users/dummy/globalLibs"
+  },
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "javascript.format.enable": false,
+  "editor.tabSize": 2,
+  "workbench.activityBar.visible": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "mithrilEmmet.vnodeFactoryFunctionName": "m",
+  "mithrilEmmet.outputDefaultTagName": true,
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "editor.minimap.enabled": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/msys64/mingw32/bin",
+    "C:/msys64/clang32/bin",
+    "C:/msys64/clang64/bin",
+    "C:/msys64/clangarm64/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "cmake.configureOnOpen": true,
+  "[rust]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "jinxdash.prettier-rust"
+  },
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=pygame",
+    "--erros-only"
+  ]
+}
